@@ -1,0 +1,18 @@
+nav{
+    background-color: greenyellow;
+    text-align: center;
+}
+nav ul{
+    list-style: none;/*para quitarle los puntos (*) que ponen los li*/
+    display: inline-block;/*Para centrar el menu*/
+}
+nav ul li{
+    float: left;/*Para centrar el menu horizontalmente*/
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;/*Hacer más "negrilla" el texto*/
+    text-decoration: none;/*Quitarle la decoracion a los enlaces*/
+    font-size: 20px;
+    padding: 18px;/*Separar los items*/
+}
