@@ -1,6 +1,18 @@
-nav{
-    background-color: greenyellow;
+h1{
+    font-weight: bold;
     text-align: center;
+}
+body{
+    height: 666px;
+    background-image: url("https://images.ecestaticos.com/kZjNrDAZ0f6L5m8p91rS89Twpp0=/0x0:0x0/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdc9%2F277%2Fac6%2Fdc9277ac614782dac6b8b32eca7417d0.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: cover;
+}
+
+nav{
+    text-align: right;
 }
 nav ul{
     list-style: none;/*para quitarle los puntos (*) que ponen los li*/
