@@ -1,5 +1,5 @@
 h1{
-    font-weight: bold;
+    font-weight: bold;/*Hacer más "negrilla" el texto*/
     text-align: center;
 }
 body{
@@ -23,7 +23,6 @@ nav ul li{
 }
 nav ul li a {
     color: black;
-    font-weight: bold;/*Hacer más "negrilla" el texto*/
     text-decoration: none;/*Quitarle la decoracion a los enlaces*/
     font-size: 20px;
     padding: 18px;/*Separar los items*/
