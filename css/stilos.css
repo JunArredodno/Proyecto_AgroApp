@@ -5,7 +5,7 @@ h1{
 }
 
 /*Imagen del centro*/
-body{
+.body{
     height: 666px;
     background-image: url("https://images.ecestaticos.com/kZjNrDAZ0f6L5m8p91rS89Twpp0=/0x0:0x0/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdc9%2F277%2Fac6%2Fdc9277ac614782dac6b8b32eca7417d0.jpg");
     background-repeat:no-repeat;
@@ -28,15 +28,15 @@ ul, ol{
 }
 
 .nave li a{
-    background-color: gray;
+    background-color: greenyellow;
     opacity: 0.6;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
 }
 .nave li a:hover{
-    background-color: tan;
+    background-color: yellowgreen;
 }
 
 .nave > li{
@@ -61,4 +61,18 @@ ul, ol{
 .nave li ul li ul{
     right: 140px;
     top: 0px;
+}
+/*Footer*/
+.futer{
+    background: gray;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+a:hover{
+    cursor: pointer;
+    font-size: 26px;
+    color: rgb(0, 195, 255);
 }
