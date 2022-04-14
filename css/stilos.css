@@ -1,7 +1,10 @@
+/*Titulo*/
 h1{
     font-weight: bold;/*Hacer más "negrilla" el texto*/
     text-align: center;
 }
+
+/*Imagen del centro*/
 body{
     height: 666px;
     background-image: url("https://images.ecestaticos.com/kZjNrDAZ0f6L5m8p91rS89Twpp0=/0x0:0x0/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fdc9%2F277%2Fac6%2Fdc9277ac614782dac6b8b32eca7417d0.jpg");
@@ -11,19 +14,51 @@ body{
     background-size: cover;
 }
 
-nav{
-    text-align: right;
+/*Submenu desplegable*/
+#menu{
+    text-align: center;
+    float: right;
+    margin: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
-nav ul{
-    list-style: none;/*para quitarle los puntos (*) que ponen los li*/
-    display: inline-block;/*Para centrar el menu*/
+
+ul, ol{
+    list-style: none;
 }
-nav ul li{
-    float: left;/*Para centrar el menu horizontalmente*/
+
+.nave li a{
+    background-color: gray;
+    opacity: 0.6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
 }
-nav ul li a {
-    color: black;
-    text-decoration: none;/*Quitarle la decoracion a los enlaces*/
-    font-size: 20px;
-    padding: 18px;/*Separar los items*/
+.nave li a:hover{
+    background-color: tan;
+}
+
+.nave > li{
+    float: left;
+}
+
+.nave li ul{
+    display: none;
+    right: 0px;
+    position: absolute;
+    min-width: 150px;
+}
+
+.nave li:hover > ul{
+    display: block;
+}
+
+.nave li ul li{
+    position: relative;
+}
+
+.nave li ul li ul{
+    right: 140px;
+    top: 0px;
 }

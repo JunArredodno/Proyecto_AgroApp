@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/stilos.css">
+    <script src="https://kit.fontawesome.com/4ca54f4655.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Head/Header-->
@@ -16,12 +17,24 @@
     </head>
     <!--Nav(menu)-->
     <nav>
-        <ul>
-            <li><a href="">Perfil</a></li>
-            <li><a href="">Carrito</a></li>
-            <li><a href="">Ubicacion</a></li>
-            <li><a href="">Contactos</a></li>
-        </ul>
+        <div id="menu">
+            <ul class="nave">
+                <li><a href=""><i class="fas fa-bars"></i></a>
+                    <ul>
+                        <li>
+                            <a href=""><i class="far fa-user-circle"></i>Perfil</a>
+                            <ul>
+                                <li><a href="">Registrarse</a></li>
+                                <li><a href="">Iniciar Secion</a></li>
+                            </ul>
+                        </li>
+                        <li><a href=""><i class="fas fa-shopping-cart"></i>Carrito</a></li>
+                        <li><a href=""><i class="fas fa-map-marked-alt"></i>Ubicacion</a></li>
+                        <li><a href=""><i class="far fa-address-book"></i></i>Contactos</a></li>
+                    </ul>                    
+                </li>                
+            </ul>
+        </div>
     </nav>
     <!--Body-->
 
