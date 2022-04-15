@@ -1,7 +1,9 @@
 /*Titulo*/
-h1{
-    font-weight: bold;/*Hacer más "negrilla" el texto*/
-    text-align: center;
+#brand{
+    display: block;
+    color: black;;
+    float: left;
+    margin-top: 40px;
 }
 
 /*Imagen del centro*/
@@ -59,7 +61,7 @@ ul, ol{
 }
 
 .nave li ul li ul{
-    right: 140px;
+    right: 100%;
     top: 0px;
 }
 /*Footer*/
