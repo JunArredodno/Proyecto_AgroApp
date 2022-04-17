@@ -1,3 +1,18 @@
+<!--<?php
+    require('../../vendor/autoload.php');
+    if(isset($_GET['id']) && is_numeric($_GET['id'])){
+        $id=$_GET['id'];
+
+        $producto=new AgroApp\Producto;
+        $resultado=$producto->mostrarPorId($id);
+
+        if(!$resultado){
+            header('Location: index.html');
+        }
+    }else{
+        header('Location: index.html');
+    }
+?>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +22,51 @@
     <title>Document</title>
 </head>
 <body>
+    <!--
+    <?php
+        require(../../vendor/autoload.php);
+        $producto=new AgroApp\Producto;
+        $info_producto=$producto->mostrar();
+        $cantidad=count($info_producto);
+
+        if($cantidad>0){
+            $c=0;
+            for($x=0;$x<$cantidad;$x++){
+                $c++;
+                $item=$info_producto[$x];
+    ?>
+
+    <tr>
+        <td><?php echo $c ?></td>
+        <td><?php echo $item['nombre'] ?></td>
+        <td><?php echo $item['categoria'] ?></td>
+        <td><?php echo $item['cantidad'] ?></td>
+        <td class="text-center">
+            <?php 
+                $foto='../../upload/'.$item['foto'];
+                if(file_exists($foto)){
+            ?>
+            <img src="<?php echo $foto ?>" width="50%">
+            <?php }else{ ?>
+                Foto No encontrada
+            <?php } ?>
+        </td>
+        <td class="text-center">
+            <a href="" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span></a>
+            <a href="form_actualizar.php?id=<?php echo $item['id'] ?>" class="btn btn-success btn-sm"><span class="glyphicon"></span></a>
+        </td>
+    </tr>
+
+    <?php
+            }
+        }else{
+        <tr>
+            <td colspan="6">NO hay registro</td>
+        </tr>    
+    ?>
+
+    <?php } ?>-->
+
     
 </body>
 </html>
