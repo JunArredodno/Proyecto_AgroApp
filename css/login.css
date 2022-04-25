@@ -1,0 +1,46 @@
+body{
+    height: 666px;
+    background-image: url("https://www.caracteristicas.co/wp-content/uploads/2016/04/campo-1-e1558303217442-800x400.jpg");
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+ul{
+    position: relative;
+}
+
+ul, li{
+    list-style: none;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+input{
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    background: rgb(245, 204, 144);
+}
+
+button {
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: yellowgreen;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
