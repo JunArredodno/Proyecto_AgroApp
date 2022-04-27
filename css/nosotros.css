@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://918230.smushcdn.com/2283449/wp-content/uploads/2020/06/exportaci%C3%B3n-de-productos-agr%C3%ADcolas.jpg?lossy=1&strip=1&webp=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+.contenedor{
+    text-align: center;
+    border: 1px solid #000;
+    margin: 180px;
+    margin-top: auto;
+    background-color: lemonchiffon;
+}
+img{
+    width: 50%;
+    height: 50vh;
+}
+
+.nosotros{
+    margin: 20px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+.nosotros p{
+    font-size: 20px;
+    text-align: justify;
+}
+.nosotros h3{
+    font-size: 30px;
+}
+
+.mision{
+    margin: 20px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+.mision p{
+    font-size: 20px;
+    text-align: justify;
+}
+.mision h3{
+    font-size: 30px;
+}
+
+.vision{
+    margin: 20px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+.vision p{
+    font-size: 20px;
+    text-align: justify;
+}
+.vision h3{
+    font-size: 30px;
+}
