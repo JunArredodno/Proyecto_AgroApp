@@ -9,7 +9,47 @@ function home() {
             <button className='boton'>Conocenos</button>
         </div>
         <div className='home__content'>
-            
+            <div className='home__content__title'>
+                <h2>Verduras</h2>
+            </div>
+            <div className='home__content__clusters'>
+                <div>
+                    <a href=''>
+                        <h3>Pepino</h3>
+                        <img scr="./img/PEPINO.jpg" alt='error404'></img>
+                    </a>
+                </div>
+                <div>
+                    <a href=''>
+                        <h3>Lechuga</h3>
+                        <img scr="" alt='error404'></img>
+                    </a>
+                </div>
+                <div>
+                    <a href=''>
+                        <h3>Tomate</h3>
+                        <img scr="./img/tomate_chonto.jpg" alt='error404'></img>
+                    </a>
+                </div>
+                <div>
+                    <a href=''>
+                        <h3>Apio</h3>
+                        <img scr="" alt='error404'></img>
+                    </a>
+                </div>
+                <div>
+                    <a href=''>
+                        <h3>Papa</h3>
+                        <img scr="" alt='error404'></img>
+                    </a>
+                </div>
+                <div>
+                    <a href=''>
+                        <h3>Calabaza</h3>
+                        <img scr="" alt='error404'></img>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
   )

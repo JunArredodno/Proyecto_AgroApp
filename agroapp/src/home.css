@@ -22,3 +22,33 @@
     color: white;
     font-size: 18px;
 }
+/*Titulo*/
+.home__content__title{
+    text-align: center;
+}
+/*Clusters*/
+.home__content__clusters{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home__content__clusters div{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    width: 30%;
+    background-color: lightgray;
+    height: 250px;
+    align-items: center;
+    margin: 1%;
+}
+
+.home__content__clusters div a{
+    color: black;
+    text-decoration: none;
+}
+
+.home__content__clusters div img{
+    width: 20%;
+    height: 20%;
+}
