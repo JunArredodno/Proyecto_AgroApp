@@ -1,0 +1,35 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+header{
+    min-height: 60px;
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.header .header__nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.header .header__nav a:hover{
+    transition: all;
+    border: 2px solid white;
+    background-color: gray;
+}
