@@ -3,12 +3,15 @@ import "./home.css"
 
 function home() {
   return (
+     
     <div className='home'>
+       <a  Name='incio'  ></a>
+       
         <div className='home__banner'>
-            <h1>Agr@pp</h1>
+        <h1 className='titulo_principal'>Agr@pp</h1>
             <button className='boton'>Conocenos</button>
         </div>
-
+        <a  Name='productos'  ></a>
         <div className='home__content'>
         <h1 className='titulo1'>¡Ultimos productos registrados! categorizados</h1>
             <div className='home__content__title'>
@@ -110,6 +113,7 @@ function home() {
             </div>
             
         </div>
+       
         <a href="http://" class="product">VER MAS PRODUCTOS</a>
         <h1 className='producto'>Producto destacado</h1>
         <div className='destacado'>
@@ -128,7 +132,7 @@ function home() {
                         </div>
                    
             </div>
-
+            <a  Name='contactenos'  ></a>
             <div className='home_contacto'>
             <form className='contactanos'>
             <h2 className='titulo4'>¡Contactanos!</h2>

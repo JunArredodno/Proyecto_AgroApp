@@ -11,7 +11,7 @@
 
 .boton{
     float: left;
-    margin-left: -13%;
+    margin-left: -9%;
     background: orange;
     cursor: pointer;
     margin-top: 200px;
@@ -21,6 +21,7 @@
     line-height: 50px;
     color: white;
     font-size: 18px;
+    outline: none;
 }
 /*Titulo*/
 .titulo1{
@@ -28,9 +29,18 @@
     background-color: rgb(254, 254, 255);
     color: black;
     margin-top: -4%;
-    margin-left: 20%;
+    margin-left: 30%;
     position: absolute;
     font-weight: lighter;
+}
+.home__banner h1{
+   
+    float: left;
+    color: black;
+    margin-top: -4%;
+    margin-left: 1%;
+    color: white;
+    font-size: 34px;
 }
 /*Titulo*/
 .home__content__title{
