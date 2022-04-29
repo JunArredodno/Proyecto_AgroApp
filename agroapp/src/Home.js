@@ -14,9 +14,9 @@ function home() {
             </div>
             <div className='home__content__clusters'>
                 <div>
-                    <a href=''>
+                    <a className='imagen1' href=''>
                         <h3>Pepino</h3>
-                        <img scr="./img/PEPINO.jpg" alt='error404'></img>
+                        <img scr="" alt=''></img>
                     </a>
                 </div>
                 <div>
