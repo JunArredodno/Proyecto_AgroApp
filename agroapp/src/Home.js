@@ -130,7 +130,14 @@ function home() {
             </div>
 
             <div className='home_contacto'>
-
+            <form className='contactanos'>
+            <h2>contactanos</h2>
+            <input type="nombre" name="name" placeholder='Nombre' required />
+            <input type="email" name="name" placeholder='correo'  required/>
+            <textarea name='escribe' className='texx' id='tex' cols={30}  rows  >Escribe tu mensaje aqui</textarea>
+          
+            <input type="submit" value="Submit" />
+            </form>
                 
         </div>
     </div>
