@@ -61,19 +61,19 @@ function home() {
             </div>
             <div className='home__content__clusters'>
                 
-                    <a href='' className='imagen1'>
+                    <a href='' className='imagen7'>
                     <div >
                         <h3>Lulo</h3>
                         </div>
                     </a>
 
-                    <a href='' className='imagen2'>
+                    <a href='' className='imagen8'>
                     <div >
                         <h3>Mora</h3>
                         </div>
                     </a>
 
-                    <a href='' className='imagen3'>
+                    <a href='' className='imagen9'>
                     <div >
                         <h3>Tomate de arbol</h3>
                         </div>
@@ -88,21 +88,21 @@ function home() {
             </div>
             <div className='home__content__clusters'>
                 
-                    <a href='' className='imagen1'>
+                    <a href='' className='imagen13'>
                     <div >
-                        <h3>Frijol</h3>
+                        <h3>Habichuela</h3>
                         </div>
                     </a>
 
-                    <a href='' className='imagen2'>
+                    <a href='' className='imagen11'>
                     <div >
                         <h3>Arbeja</h3>
                         </div>
                     </a>
 
-                    <a href='' className='imagen3'>
+                    <a href='' className='imagen12'>
                     <div >
-                        <h3>Habichuela</h3>
+                        <h3>Frijol</h3>
                         </div>
                     </a>
                     

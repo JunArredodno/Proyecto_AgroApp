@@ -123,6 +123,39 @@ h3{
     background-size: cover;
 }
 
+
+.imagen7{
+    background-image: url("img/lulo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen8{
+    background-image: url("img/Mora.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen9{
+    background-image: url("img/tomatedearbol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagen13{
+    background-image: url("img/habichuela.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen11{
+    background-image: url("img/arveja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen12{
+    background-image: url("img/frijol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .product{
     position: absolute;
     text-decoration: none;
