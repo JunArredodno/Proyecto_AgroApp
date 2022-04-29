@@ -23,16 +23,41 @@
     font-size: 18px;
 }
 /*Titulo*/
+.titulo1{
+    text-align: center;
+    background-color: rgb(254, 254, 255);
+    color: black;
+    margin-top: -4%;
+    margin-left: 20%;
+    position: absolute;
+    font-weight: lighter;
+}
+/*Titulo*/
 .home__content__title{
     text-align: center;
+    margin-top: -7.5%;
+    width: 78%;
+    margin-left: 11%;
+    height: 40px;
+    padding-top: 5px;
+    background-color: rgb(109, 253, 109);
 }
+
+.home__content{
+  margin-top: 12%;
+}
+
+
 /*Clusters*/
 .home__content__clusters{
     display: flex;
     flex-wrap: wrap;
+    margin: 10%;
+    margin-top: 4%;
+
 }
 
-.home__content__clusters div{
+.home__content__clusters a{
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -40,7 +65,22 @@
     background-color: lightgray;
     height: 250px;
     align-items: center;
+    text-align: center;
     margin: 1%;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+.home__content__clusters a:hover{
+   cursor: pointer;
+   border: 1px solid greenyellow;
+}
+
+h3{
+    text-align: center;
+    margin-top: 10%;
+    margin-left:-2% ;
+    position: absolute;
 }
 
 .home__content__clusters div a{
@@ -52,7 +92,125 @@
     width: 20%;
     height: 20%;
 }
-
 .imagen1{
-    background-image: url(img/PEPINO.jpg);
+    background-image: url("img/PEPINO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen2{
+    background-image: url("verduras/img6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen3{
+    background-image: url("verduras/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen4{
+    background-image: url("verduras/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen5{
+    background-image: url("verduras/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen6{
+    background-image: url("verduras/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product{
+    position: absolute;
+    text-decoration: none;
+    height: 8%;
+    width: 20%;
+    margin-left: 40%;
+    text-align: center;
+    padding-top: 24px;
+    background-color: rgb(40, 214, 40);
+    color: white;
+    margin-top: -8%;
+}
+
+
+
+.destacado{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10%;
+    margin-top: 4%;
+
+
+}
+
+.destacado div{
+  
+    flex-grow: 1;
+    width: 20%;
+    background-color: lightgray;
+    height: 320px;
+    margin: 1%;
+    margin-bottom: 5%;
+    text-decoration: none;
+   
+   
+}
+ .nom{
+     
+    
+    color: rgb(3, 3, 3) ;
+    position: absolute;
+    font-size: 25px;
+    margin-bottom: 12px;
+    padding: 16px;
+   font-weight: lighter;
+
+}
+.agri{
+     
+    
+    color: rgb(5, 0, 0) ;
+    position: absolute;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 4%;
+    margin-left: 1.2%;
+
+}
+
+.des{
+     
+    
+    color: rgb(5, 0, 0) ;
+    position: absolute;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 7%;
+    margin-left: 1.2%;
+
+}
+
+.imagen10{
+    background-image: url("verduras/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.home_contacto{
+        
+        margin-top: -11%;
+        position: absolute;
+        width: 100%;
+        background-image: url("img/campo2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        
+        
+    
 }

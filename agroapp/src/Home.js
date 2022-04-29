@@ -8,48 +8,53 @@ function home() {
             <h1>Agr@pp</h1>
             <button className='boton'>Conocenos</button>
         </div>
+
         <div className='home__content'>
+        <h1 className='titulo1'>¡Ultimos productos registrados! categorizados</h1>
             <div className='home__content__title'>
+           
                 <h2>Verduras</h2>
             </div>
             <div className='home__content__clusters'>
-                <div>
-                    <a className='imagen1' href=''>
+                
+                    <a href='' className='imagen1'>
+                    <div >
                         <h3>Pepino</h3>
-                        <img scr="" alt=''></img>
+                        </div>
                     </a>
-                </div>
-                <div>
-                    <a href=''>
+
+                    <a href='' className='imagen2'>
+                    <div >
                         <h3>Lechuga</h3>
-                        <img scr="" alt='error404'></img>
+                        </div>
                     </a>
-                </div>
-                <div>
-                    <a href=''>
+
+                    <a href='' className='imagen3'>
+                    <div >
                         <h3>Tomate</h3>
-                        <img scr="./img/tomate_chonto.jpg" alt='error404'></img>
+                        </div>
                     </a>
-                </div>
-                <div>
-                    <a href=''>
+
+                    <a href='' className='imagen4'>
+                    <div >
                         <h3>Apio</h3>
-                        <img scr="" alt='error404'></img>
+                        </div>
                     </a>
-                </div>
-                <div>
-                    <a href=''>
+
+                    <a href='' className='imagen5'>
+                    <div >
                         <h3>Papa</h3>
-                        <img scr="" alt='error404'></img>
+                        </div>
                     </a>
-                </div>
-                <div>
-                    <a href=''>
+
+                    <a href='' className='imagen6'>
+                    <div >
                         <h3>Calabaza</h3>
-                        <img scr="" alt='error404'></img>
+                        </div>
                     </a>
-                </div>
+
             </div>
+        
         </div>
     </div>
   )
