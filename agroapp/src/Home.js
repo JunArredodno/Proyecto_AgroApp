@@ -1,6 +1,8 @@
 import React from 'react'
 import "./home.css"
 
+
+
 function home() {
   return (
      
@@ -132,6 +134,7 @@ function home() {
                         </div>
                    
             </div>
+
             <a  Name='contactenos'  ></a>
             <div className='home_contacto'>
             <form className='contactanos'>

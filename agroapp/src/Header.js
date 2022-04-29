@@ -11,7 +11,7 @@ function Header() {
                 <a class="menu__link select" href="inicio" >Inicio</a>
                 <a class="menu__link " href="#productos">Productos</a>
                 <a class="menu__link " href="#contactenos">Contactenos</a>
-                <a class="menu__link " href="#nosotros" >Mi cuenta</a>
+                <a class="menu__link " href="/mi_cuenta" >Mi cuenta</a>
                 <a class="menu__link " href="#contactenos">Registrarse</a>
             </div>
         </div>
