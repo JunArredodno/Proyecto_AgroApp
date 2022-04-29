@@ -111,9 +111,9 @@ function home() {
             
         </div>
         <a href="http://" class="product">VER MAS PRODUCTOS</a>
-
+        <h1 className='producto'>Producto destacado</h1>
         <div className='destacado'>
-                
+              
                     
                     <div className='imagen10'>
                         
