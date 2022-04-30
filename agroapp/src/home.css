@@ -9,19 +9,9 @@
     
 }
 
-.boton{
-    float: left;
-    margin-left: -9%;
-    background: orange;
-    cursor: pointer;
-    margin-top: 200px;
-    text-decoration: none;
-    text-align: center;
-    width: 150px;
-    line-height: 50px;
-    color: white;
-    font-size: 18px;
-    outline: none;
+a .enlace{
+    position: absolute;
+    font-size: 40%;
 }
 /*Titulo*/
 .titulo1{
@@ -29,7 +19,7 @@
     background-color: rgb(254, 254, 255);
     color: black;
     margin-top: -4%;
-    margin-left: 30%;
+    margin-left: 20%;
     position: absolute;
     font-weight: lighter;
 }

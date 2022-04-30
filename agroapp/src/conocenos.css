@@ -1,0 +1,95 @@
+.content{
+    background-image: url("https://918230.smushcdn.com/2283449/wp-content/uploads/2020/06/exportaci%C3%B3n-de-productos-agr%C3%ADcolas.jpg?lossy=1&strip=1&webp=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+.titulo_nosotros{
+    text-align: center;
+    color: black;
+}
+.contenedor{
+    text-align: center;
+    border: 1px solid #000;
+    margin: 180px;
+    margin-top: auto;
+    background-color: lemonchiffon;
+}
+img{
+    width: 50%;
+    height: 50vh;
+}
+
+.nosotros{
+    margin: 2%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+}
+.nosotros p{
+    font-size: 150%;
+    text-align: justify;
+}
+
+.mision{
+    margin: 2%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+ 
+}
+.mision .imagen20{
+    background-image: url("./img/mision.jpg");
+    background-position-y: -67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mision p{
+    font-size: 150%;
+    text-align: justify;
+}
+div .titulo_nosotros2{
+   
+    font-size: 200%;
+    position: absolute;
+    margin-top: -4%;
+    float: left;
+    margin-left: 25%;
+}
+
+div .titulo_nosotros3{
+   
+    font-size: 200%;
+    position: absolute;
+    margin-top: -4%;
+    float: left;
+    margin-left: 25%;
+}
+
+.vision{
+    margin: 2%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+}
+.vision p{
+    font-size: 150%;
+    text-align: justify;
+}
+.vision h3{
+    font-size: 200%;
+}
+
+.vision .imagen20{
+    background-image: url("./img/vision.jpg");
+    background-position-y: -67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nosotros .imagen20{
+    background-image: url("./img/nosotros.png");
+    background-position-y: -67%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

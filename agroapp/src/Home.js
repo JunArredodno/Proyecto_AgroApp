@@ -1,19 +1,18 @@
 import React from 'react'
 import "./home.css"
-
+import { Link } from 'react-router-dom'
 
 
 function home() {
   return (
      
     <div className='home'>
-       <a  Name='incio'  ></a>
+       <a  Name='inicio' ></a>
        
         <div className='home__banner'>
         <h1 className='titulo_principal'>Agr@pp</h1>
-            <button className='boton'>Conocenos</button>
         </div>
-        <a  Name='productos'  ></a>
+        <a  Name='productos'></a>
         <div className='home__content'>
         <h1 className='titulo1'>¡Ultimos productos registrados! categorizados</h1>
             <div className='home__content__title'>
