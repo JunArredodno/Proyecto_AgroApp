@@ -6,6 +6,7 @@ import App from './App';
 //import Home from './Home'
 import Micuenta from './Micuenta'
 import Conocenos from './Conocenos';
+import Modal from './components/Modal';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -14,8 +15,9 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" exact element ={<App />} />
-      <Route path="/micuenta/" element={<Micuenta />} />
-      <Route path="/conocenos/" element={<Conocenos />} />
+      <Route path="/micuenta" element={<Micuenta />} />
+      <Route path="/conocenos" element={<Conocenos />} />
+      <Route path="/modal" element={<Modal />} />
     </Routes>
     </BrowserRouter>,
 );
