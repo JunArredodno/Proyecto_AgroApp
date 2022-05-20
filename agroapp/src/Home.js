@@ -1,10 +1,12 @@
-import React from 'react'
-import "./home.css"
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react';
+import "./home.css";
+import Modal from './components/Modal';
+import styled from 'styled-components';
 
-
-function home() {
-  return (
+function Home() {
+    const [estadoModal1, cambiarEstadoModal1] = useState(false);
+  
+    return (
      
     <div className='home'>
        <a  Name='inicio' ></a>
@@ -21,9 +23,21 @@ function home() {
             </div>
             <div className='home__content__clusters'>
                 
-                    <a href='' className='imagen1'>
-                    <div >
-                        <h3>Pepino</h3>
+                    <a href='' className='imagen1' onClick={()=> cambiarEstadoModal1(!estadoModal1)}>
+                        <div >
+                            <h3>Pepino</h3>
+                            <Modal
+                                titulo="Comprar"
+                                estado={estadoModal1}
+                                cambiarEstado={cambiarEstadoModal1} 
+                            >                                
+                                <Contenido>
+                                    <form>
+                                        <input type="number" placeholder='Cantidad'></input>
+                                    </form>
+                                    <Boton>Aceptar</Boton>
+                                </Contenido>
+                            </Modal>
                         </div>
                     </a>
 
@@ -150,4 +164,39 @@ function home() {
   )
 }
 
-export default home
+export default Home
+
+const Boton = styled.button`
+  display: block;
+  padding: 2%;
+  color: #fff;
+  border: none;
+  background: #1766DC;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: .5 ease all;
+
+  &:hover{
+      background: #0066ff;
+  }
+
+`;
+
+const Contenido= styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1{
+    font-weight: 500;
+    font-size: 150%;
+    color: #1766DC;
+  }
+   img{
+       width: 100%;
+       vertical-align: top;
+       border-radius: 3%;
+   }
+
+`;
