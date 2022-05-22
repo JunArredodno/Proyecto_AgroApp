@@ -5,6 +5,17 @@ import styled from 'styled-components';
 
 function Home() {
     const [estadoModal1, cambiarEstadoModal1] = useState(false);
+    const [estadoModal2, cambiarEstadoModal2] = useState(false);
+    const [estadoModal3, cambiarEstadoModal3] = useState(false);
+    const [estadoModal4, cambiarEstadoModal4] = useState(false);
+    const [estadoModal5, cambiarEstadoModal5] = useState(false);
+    const [estadoModal6, cambiarEstadoModal6] = useState(false);
+    const [estadoModal7, cambiarEstadoModal7] = useState(false);
+    const [estadoModal8, cambiarEstadoModal8] = useState(false);
+    const [estadoModal9, cambiarEstadoModal9] = useState(false);
+    const [estadoModal10, cambiarEstadoModal10] = useState(false);
+    const [estadoModal11, cambiarEstadoModal11] = useState(false);
+    const [estadoModal12, cambiarEstadoModal12] = useState(false);
   
     return (
      
@@ -14,6 +25,7 @@ function Home() {
         <div className='home__banner'>
         <h1 className='titulo_principal'>Agr@pp</h1>
         </div>
+        
         <a  Name='productos'></a>
         <div className='home__content'>
         <h1 className='titulo1'>¡Ultimos productos registrados! categorizados</h1>
@@ -23,51 +35,129 @@ function Home() {
             </div>
             <div className='home__content__clusters'>
                 
-                    <a href='' className='imagen1' onClick={()=> cambiarEstadoModal1(!estadoModal1)}>
-                        <div >
-                            <h3>Pepino</h3>
-                            <Modal
-                                titulo="Comprar"
-                                estado={estadoModal1}
-                                cambiarEstado={cambiarEstadoModal1} 
-                            >                                
-                                <Contenido>
-                                    <form>
-                                        <input type="number" placeholder='Cantidad'></input>
-                                    </form>
-                                    <Boton>Aceptar</Boton>
-                                </Contenido>
-                            </Modal>
+                    <a className='imagen1'>
+                        <Modal
+                            titulo="Comprar Pepino:"
+                            precio="3000"
+                            estado={estadoModal1}
+                            cambiarEstado={cambiarEstadoModal1}    
+                        >                         
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal1(!estadoModal1)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen2'>
-                    <div >
-                        <h3>Lechuga</h3>
+                    <a className='imagen2'>
+                    <Modal
+                            titulo='Comprar Lechuga:'
+                            precio='2000'
+                            estado={estadoModal2}
+                            cambiarEstado={cambiarEstadoModal2}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal2(!estadoModal2)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen3'>
-                    <div >
-                        <h3>Tomate</h3>
+                    <a className='imagen3'>
+                    <Modal
+                            titulo="Comprar Tomate chonto:"
+                            precio="5000"
+                            estado={estadoModal3}
+                            cambiarEstado={cambiarEstadoModal3}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal3(!estadoModal3)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen4'>
-                    <div >
-                        <h3>Apio</h3>
+                    <a className='imagen4'>
+                    <Modal
+                            titulo="Comprar Apio:"
+                            precio="1200"
+                            estado={estadoModal4}
+                            cambiarEstado={cambiarEstadoModal4}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal4(!estadoModal4)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen5'>
-                    <div >
-                        <h3>Papa</h3>
+                    <a className='imagen5'>
+                        <Modal
+                            titulo="Comprar Papa:"
+                            precio="1400"
+                            estado={estadoModal5}
+                            cambiarEstado={cambiarEstadoModal5}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal5(!estadoModal5)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen6'>
-                    <div >
-                        <h3>Calabaza</h3>
+                    <a className='imagen6'>
+                        <Modal
+                            titulo="Comprar Calabaza:"
+                            precio="4000"
+                            estado={estadoModal6}
+                            cambiarEstado={cambiarEstadoModal6}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal6(!estadoModal6)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
@@ -79,21 +169,66 @@ function Home() {
             </div>
             <div className='home__content__clusters'>
                 
-                    <a href='' className='imagen7'>
-                    <div >
-                        <h3>Lulo</h3>
+                    <a className='imagen7'>
+                        <Modal
+                            titulo="Comprar Lulo:"
+                            precio="4000"
+                            estado={estadoModal7}
+                            cambiarEstado={cambiarEstadoModal7}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal7(!estadoModal7)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen8'>
-                    <div >
-                        <h3>Mora</h3>
+                    <a className='imagen8'>
+                    <Modal
+                            titulo="Comprar Mora:"
+                            precio="2500"
+                            estado={estadoModal8}
+                            cambiarEstado={cambiarEstadoModal8}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal8(!estadoModal8)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen9'>
-                    <div >
-                        <h3>Tomate de arbol</h3>
+                    <a className='imagen9'>
+                    <Modal
+                            titulo="Comprar Tomate de arbol:"
+                            precio="4000"
+                            estado={estadoModal9}
+                            cambiarEstado={cambiarEstadoModal9}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal9(!estadoModal9)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
@@ -106,21 +241,66 @@ function Home() {
             </div>
             <div className='home__content__clusters'>
                 
-                    <a href='' className='imagen13'>
-                    <div >
-                        <h3>Habichuela</h3>
+                    <a className='imagen13'>
+                    <Modal
+                            titulo="Comprar Habichuela:"
+                            precio="6000"
+                            estado={estadoModal10}
+                            cambiarEstado={cambiarEstadoModal10}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal10(!estadoModal10)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen11'>
-                    <div >
-                        <h3>Arbeja</h3>
+                    <a className='imagen11'>
+                    <Modal
+                            titulo="Comprar Arbeja:"
+                            precio="000"
+                            estado={estadoModal11}
+                            cambiarEstado={cambiarEstadoModal11}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal11(!estadoModal11)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
 
-                    <a href='' className='imagen12'>
-                    <div >
-                        <h3>Frijol</h3>
+                    <a className='imagen12'>
+                    <Modal
+                            titulo="Comprar Frijol:"
+                            precio="000"
+                            estado={estadoModal12}
+                            cambiarEstado={cambiarEstadoModal12}    
+                        >                                
+                            <Contenido>
+                                <form onSubmit={() => {
+                                    console.log(this);
+                                }}>
+                                    <input type="number" placeholder='Cantidad'></input>
+                                </form>
+                                <Boton>Aceptar</Boton>
+                            </Contenido>
+                        </Modal>
+                        <div onClick={()=> cambiarEstadoModal12(!estadoModal12)}>
+                            <button>Comprar</button>
                         </div>
                     </a>
                     

@@ -12,7 +12,7 @@ function Header() {
             <div className="header__nav">
                 <a class="menu__link" href="#inicio">Inicio</a>
                 <a class="menu__link" href="#productos">Productos</a>
-                <a class="menu__link" href="/modal">Modal</a>
+                {/*<a class="menu__link" href="/modal">Modal</a>*/}
                 <a class="menu__link" href="#contactenos">Contactenos</a>
                 <Link class="menu__link " to="/conocenos" >Conocenos</Link>
                 <Link class="menu__link " to="/Micuenta" >Mi cuenta</Link>

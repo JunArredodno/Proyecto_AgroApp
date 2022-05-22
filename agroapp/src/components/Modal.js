@@ -1,18 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Modal =({children, estado, cambiarEstado, titulo})=> {
+const Modal =({children, estado, cambiarEstado, titulo, precio})=> {
   return (
     <>
       {estado &&
           <Overlay>
             <Contenedor>
-              <Encabezado><h1>{titulo}</h1></Encabezado>
-              <Cerrar onClick={()=>cambiarEstado(false)}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </Cerrar>
+              <Encabezado>
+                <h1>{titulo} {precio}</h1>
+                <Cerrar onClick={()=>cambiarEstado(false)}>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                </Cerrar>
+              </Encabezado>              
 
               {children}
 
@@ -55,8 +57,8 @@ const Encabezado= styled.div`
 `;
 
 const Contenedor= styled.div`
-  width:50vw; 
-  height:50vh; 
+  width:35vw; 
+  height:35vh; 
   background: #fff;
   position: relative;
   border-radious: 5px;
@@ -66,8 +68,7 @@ const Contenedor= styled.div`
 
 const Cerrar= styled.button`
   position: absolute;
-  top: 3%;
-  right: 3%;
+  right: 8%;
   width: 5%;
   height: 7%;
 

@@ -76,11 +76,20 @@ a .enlace{
    border: 1px solid greenyellow;
 }
 
-h3{
+/*h3{
     text-align: center;
     margin-top: 10%;
     margin-left:-2% ;
     position: absolute;
+}*/
+button{
+    text-align: center;
+    margin-top: 10%;
+    margin-left:-2% ;
+    position: absolute;
+    border: none;
+    font-size: 130%;
+    background-color: greenyellow;
 }
 
 .home__content__clusters div a{
