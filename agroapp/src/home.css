@@ -8,6 +8,38 @@
     align-items: center;
     
 }
+/*Botones Comprar y vender*/
+.Compras{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    margin-left:40% ;
+    justify-content: space-between;
+    display: flex;
+    font-size: 200%;
+    background-color: greenyellow;
+}
+
+.Compras:hover{
+    cursor: pointer;
+    background: rgb(21, 126, 0);
+}
+
+.Vender{
+    text-align: center;
+    margin: auto;
+    margin-right: -35%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 210%;
+    background-color: greenyellow
+}
+
+.Vender:hover{
+    cursor: pointer;
+    background: rgb(21, 126, 0);
+}
 
 a .enlace{
     position: absolute;
