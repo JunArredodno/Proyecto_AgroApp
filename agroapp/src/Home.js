@@ -140,7 +140,7 @@ function Home() {
                                 <input type="number" placeholder='Cantidad'></input>
                                 Cosecha:<input type="date"></input>
                             </form>
-                            <Boton>Cargar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal0(false)}>Cargar</Boton>
                         </Contenido>
                     </Modal>
                     <Modal
@@ -155,7 +155,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal1(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -171,7 +171,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal2(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -187,7 +187,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal3(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -203,7 +203,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal4(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -219,7 +219,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal5(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
                     
@@ -235,7 +235,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal6(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -251,7 +251,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal7(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -267,7 +267,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal8(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -283,7 +283,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal9(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -299,7 +299,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal10(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
 
@@ -315,7 +315,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal11(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
                     
@@ -331,7 +331,7 @@ function Home() {
                             }}>
                                 <input type="number" placeholder='Cantidad'></input>
                             </form>
-                            <Boton>Aceptar</Boton>
+                            <Boton onClick={()=>cambiarEstadoModal12(false)}>Aceptar</Boton>
                         </Contenido>
                     </Modal>
             </div>
