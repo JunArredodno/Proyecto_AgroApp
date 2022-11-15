@@ -6,10 +6,12 @@ import App from './App';
 //import Home from './Home'
 import Micuenta from './Micuenta'
 import Conocenos from './Conocenos';
-import Registro from './Registro';
+//import Registro from './Registro';
+import Registro from './components/registro/Registro';
 /*import Modal from './components/Modal';*/
 import MapView from './components/MapView';
 import ServicioTecnico from './ServicioTecnico';
+import PosUsuario from './components/PosUsuario';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -22,6 +24,7 @@ root.render(
       <Route path="/conocenos" element={<Conocenos />} />
       <Route path="/registro" element={<Registro />} />
       <Route path="/mapa" element={< MapView/>} />
+      <Route path="/posicion" element={< PosUsuario/>} />
       <Route path="/tecnico" element={<ServicioTecnico />} />
     </Routes>
     </BrowserRouter>,
