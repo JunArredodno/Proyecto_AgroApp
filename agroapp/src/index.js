@@ -4,7 +4,8 @@ import './index.css';
 //import Header from './Header';
 import App from './App';
 //import Home from './Home'
-import Micuenta from './Micuenta'
+//import Micuenta from './Micuenta'
+import Micuenta from './components/inicioSesion/Micuenta';
 import Conocenos from './Conocenos';
 //import Registro from './Registro';
 import Registro from './components/registro/Registro';

@@ -1,0 +1,34 @@
+<?php
+$dominioPermitido = "http://localhost:3000";
+header("Access-Control-Allow-Origin: $dominioPermitido");
+header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
+header("Content-Type: text/html; charset=utf-8");
+
+$method = $_SERVER['REQUEST_METHOD'];
+    include "conectar.php";
+    $mysqli = conectarDB();
+    //sleep(1);	
+	$JSONData = file_get_contents("php://input");
+	$dataObject = json_decode($JSONData);    
+    session_start();    
+    $mysqli->set_charset('utf8');
+	    
+	$usuario = $dataObject-> nombre;
+  $email=$dataObject->correo;
+  $pas =	$dataObject-> contra;
+  $id=$dataObject->cedula;
+  
+  if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
+  }
+  
+  $sql = "INSERT INTO surtidores (Documento, Nombre, Contraseña) VALUES ('$id', '$usuario', '$pas')";
+
+  if ($mysqli->query($sql) === TRUE) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $mysqli->error;
+  }
+  
+$mysqli->close();
+?>

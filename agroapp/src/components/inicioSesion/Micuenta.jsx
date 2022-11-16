@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import "../../mi_cuenta.css";
-const URL_LOGIN="http://localhost/Proyecto_AgroApp\Proyecto_AgroApp\agroapp/complementos_php/login.php";//antiguamente http://localhost/complementos_php/login.php
+const URL_LOGIN="http://localhost/Proyecto_AgroApp/Proyecto_AgroApp/agroapp/complementos_php/login.php";//antiguamente http://localhost/complementos_php/login.php
 {/*funcion asincrona para enviar los datos*/}
 
 const enviarDatos=async(url,data)=>{
