@@ -82,12 +82,25 @@
     width: 50%;
     margin: auto;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 20%;
     border: none;
     color: black;
     font-size: 19px;
     background-color: greenyellow;
 
+}
+
+.formulario .enlace{
+   
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    position: absolute;
+    left: 65%;
+    margin-bottom: 20%;
+    border: none;
+    color: black;
+    font-size: 19px;
 }
 
 .formulario .enviar:hover{

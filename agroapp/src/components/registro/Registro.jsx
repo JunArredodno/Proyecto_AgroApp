@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import "../../registro.css";
+import { Link } from 'react-router-dom';
 const URL_Regis="http://localhost/Proyecto_AgroApp/Proyecto_AgroApp/agroapp/complementos_php/register.php";
 {/*funcion asincrona para enviar los datos*/}
 
@@ -46,9 +47,8 @@ export default function Registro(props) {
         <input className='cedula' type="number" placeholder='Cedula' ref={refCedula}></input>
         <input className='correo' type="email" placeholder='Correo' ref={refCorreo}></input>
         <input className='contra' type="password" placeholder='Contraseña' ref={refContra}></input>
-        {/*<Link className='enviar' to="/">Enviar</Link>*/}
-        {/*Boton nuevo a ver si funciona*/}
-        <button onClick={handleLogin} className="btn btn-info btn-lg btn-block">Enviar</button>
+        <button onClick={handleLogin} className="enviar">Enviar</button>
+        <Link className="enlace" to="/">Iniciar sesion</Link>
       </form>    
     </div>
   )

@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import "../../mi_cuenta.css";
 const URL_LOGIN="http://localhost/Proyecto_AgroApp/Proyecto_AgroApp/agroapp/complementos_php/login.php";//antiguamente http://localhost/complementos_php/login.php
 {/*funcion asincrona para enviar los datos*/}
@@ -41,8 +42,8 @@ export default function Micuenta(props) {
           <input className='cedula' type="number" placeholder='Cedula' ref={refUsuario}></input>
           <input className='contra' type="password" placeholder='Contraseña' ref={refContra}></input>
           <button className='enviar' onClick={handleLogin}>Ingresar</button>
-          {/*<Link className='enviar' to="/">Enviar</Link>*/}
-        </from>        
+          <span className='enlace'>¿Sin cuenta?<Link to="/registro">Resgistrese</Link></span>          
+        </from>
     </div>
   )
 }

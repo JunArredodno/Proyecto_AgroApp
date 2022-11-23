@@ -35,7 +35,7 @@
     margin-top: 16%;
     margin-left: 20%;
     color: black;
-    height: 56%;
+    height: 60%;
 }
 
 .formulario2 input{
@@ -67,15 +67,27 @@
    
     width: 50%;
     margin: auto;
+    position: absolute;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 20%;
     border: none;
     color: black;
     font-size: 19px;
     background-color: greenyellow;
 
 }
-
+.formulario2 .enlace{
+   
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    position: absolute;
+    left: 65%;
+    margin-bottom: 20%;
+    border: none;
+    color: black;
+    font-size: 19px;
+}
 .formulario2 .enviar:hover{
    
     cursor: pointer;
