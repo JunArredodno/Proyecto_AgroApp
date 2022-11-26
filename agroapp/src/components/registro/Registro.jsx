@@ -34,6 +34,9 @@ export default function Registro(props) {
       "contra":refContra.current.value,
       "correo":refCorreo.current.value
     };
+    /*if(data==0){
+      alert("ingreso mal");
+    }else{}*/
     const respJson=await enviarDatos(URL_Regis, data);
     console.log(respJson);
     props.acceder(respJson.conectado);
